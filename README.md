@@ -1,83 +1,87 @@
-# Proyecto de Análisis de Sentimientos en Redes Sociales usando IA
+# Sentiment Analyzer
 
-## Descripción del Proyecto
+**English** | [Español](README.es.md)
 
-Este proyecto consiste en desarrollar un sistema de análisis de sentimientos en redes sociales utilizando técnicas de inteligencia artificial (IA). El sistema recopila datos de redes sociales, analiza el texto para determinar el sentimiento (positivo, negativo o neutro) y proporciona estadísticas y visualizaciones sobre el estado de ánimo de los usuarios en relación con temas específicos o tendencias actuales.
+## Project Description
 
-## Estructura del Proyecto
+This project is a social media sentiment analysis system built with artificial intelligence (AI). It collects social media data, analyzes text to determine whether the sentiment is positive, negative, or neutral, and provides statistics and visualizations about users' opinions on specific topics or current trends.
+
+## Project Structure
 
 ### Frontend
 - **Framework:** Next.js
-- **Estilos:** Tailwind CSS
+- **Styles:** Tailwind CSS
 
 ### Backend
-- **Framework para API:** Next.js
-- **IA:** Python
+- **API framework:** Next.js
+- **AI:** Python
 
-## Funcionalidades Principales
-1. **Recopilación de Datos de Redes Sociales**
-   - API para la recolección de datos (comentarios) a través de YouTube.
+## Main Features
+1. **Social Media Data Collection**
+   - API for collecting comments from YouTube.
 
-2. **Análisis de Sentimientos**
-   - Utilizar algoritmos de procesamiento de lenguaje natural (NLP) para analizar textos de publicaciones y determinar el sentimiento.
-   - Utilizar un modelo de IA previamente entrenado para reconocer sentimientos positivos, negativos y neutros.
+2. **Sentiment Analysis**
+   - Natural language processing (NLP) algorithms to analyze publication text and determine sentiment.
+   - A pre-trained AI model to identify positive, negative, and neutral sentiment.
 
-3. **Generación de Estadísticas y Visualizaciones**
-   - Calcular estadísticas sobre el sentimiento general de los usuarios en relación con temas específicos.
-   - Crear visualizaciones como gráficos de barras y mapas de calor para mostrar la distribución del sentimiento.
+3. **Statistics and Visualizations**
+   - Statistics about overall user sentiment on specific topics.
+   - Bar charts and heat maps to display sentiment distribution.
 
-4. **Interfaz de Usuario**
-   - Diseñar una interfaz de usuario intuitiva que permita interactuar con el sistema y explorar los resultados del análisis de sentimientos.
-   - Proporcionar funcionalidades adicionales como búsqueda de temas específicos, comparación de tendencias y segmentación de datos.
+4. **User Interface**
+   - An intuitive interface for exploring sentiment analysis results.
+   - Search for specific topics, compare trends, and segment data.
 
-## Instalación
+## Installation
 
-### Pre-requisitos
+### Prerequisites
 - Node.js
 - Python 3.x
 - pip
 
-### Pasos
-1. Clonar el repositorio:
+### Steps
+1. Clone the repository:
    ```sh
-   git clone https://github.com/fernandolopez2171/proyecto-analisis-sentimientos.git
-   cd proyecto-analisis-sentimientos
+   git clone https://github.com/Fernandolopez2171/sentiment-analyzer.git
+   cd sentiment-analyzer
    ```
 
-2. Instalar dependencias del frontend:
+2. Install frontend dependencies:
    ```sh
    cd Frontend
    npm install
    ```
 
-3. Instalar dependencias del backend:
+3. Install backend dependencies:
    ```sh
-   cd Backend
+   cd ..\Backend
    pip install -r requirements.txt
    ```
 
-## Uso
+## Usage
 
 ### Frontend
-1. Iniciar el servidor de desarrollo:
+1. Start the development server:
    ```sh
    cd Frontend
    npm run dev
    ```
-2. Acceder a `http://localhost:3000` en tu navegador.
+2. Open `http://localhost:3000` in your browser.
 
 ### Backend
-1. Ejecutar el backend de la IA:
+1. Start the AI backend:
    ```sh
-   cd Backend
-   cd BertModel
+   cd ..\Backend\BertModel
    python app.py
    ```
 
 ## Review
-![Inicio](./Project_Review/Inicio.png)
+![Home](./Project_Review/Inicio.png)
 
-![YoutubeApi](./Project_Review/ApiYoutube.png)
+![YouTube API](./Project_Review/ApiYoutube.png)
 
-![Grafica](./Project_Review/Grafica.png)
+![Chart](./Project_Review/Grafica.png)
 
+## Contributing
+
+Contributions are welcome. Please fork the project, create a feature branch, commit your changes, push the branch, and open a pull request.
