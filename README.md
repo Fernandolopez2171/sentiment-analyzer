@@ -85,3 +85,7 @@ This project is a social media sentiment analysis system built with artificial i
 ## Contributing
 
 Contributions are welcome. Please fork the project, create a feature branch, commit your changes, push the branch, and open a pull request.
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.

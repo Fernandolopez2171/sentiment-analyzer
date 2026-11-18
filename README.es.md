@@ -85,3 +85,7 @@ Este proyecto es un sistema de análisis de sentimientos en redes sociales desar
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Haz un fork del proyecto, crea una rama para tu funcionalidad, realiza tus cambios, sube la rama y abre un pull request.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT — consulta el archivo [LICENSE](LICENSE) para más detalles.
